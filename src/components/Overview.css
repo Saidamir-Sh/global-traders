@@ -1,0 +1,44 @@
+@import "./vendor-css.css";
+
+.Overview {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.overview__card {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: .4em .3em;
+    position: relative;
+    background: rgba( 44, 44, 44, 0.25 );
+box-shadow: 0 8px 32px 0 rgba(68, 67, 67, 0.37);
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.overview__card p {
+    align-self: flex-start;
+    justify-self: flex-start;
+    font-size: .9rem;
+}
+.overview__card h6 {
+    font-size: 1.7rem;
+    text-align: center;
+    align-self: center;
+    position: absolute;
+    bottom: 0em;
+    color: var(--Secondary-color);
+}
+
+
+/* =-=-=-=-=-=- MEDIA QUERIES =-=-=-=-=-=-=-=- */
+/*320px — 480px: Mobile devices*/
+@media (min-width: 320px) and (max-width: 768px) {
+    .Overview {
+        display: none;
+    }
+}

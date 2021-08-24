@@ -1,0 +1,16 @@
+.Dashboard {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* =-=-=-=-=-=- MEDIA QUERIES =-=-=-=-=-=-=-=- */
+/*320px — 480px: Mobile devices*/
+@media (min-width: 320px) and (max-width: 768px) {
+    .Dashboard {
+        width: 100%;
+    }
+}

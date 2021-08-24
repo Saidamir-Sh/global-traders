@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+:root {
+    --MainBack-color : #2c2c2c;
+    --ColBack-color : #292929;
+    --Primary-color : #9000F9;
+    --Secondary-color: #BB86FC;
+    --Button-color : #CF6679;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--Primary-color);
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    color: var(--Secondary-color);
+    font-family: 'Poppins', sans-serif;
+}
+button {
+    background-color: var(--Button-color);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}

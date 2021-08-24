@@ -1,0 +1,61 @@
+@import './vendor-css.css';
+.Profile {
+    width: 20%;
+    background-color: var(--ColBack-color);
+    display: flex;
+    flex-direction: column;
+}
+.profile__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba( 44, 44, 44, 0.25 );
+box-shadow: 0 8px 32px 0 rgba(68, 67, 67, 0.37);
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: .5em;
+    padding: 1em 0em;
+}
+.profile__card img {
+    width: 7em;
+    border-radius: 50%;
+    padding-bottom: .3em;
+}
+small {
+    color: grey;
+    padding-bottom: .5em;
+}
+.profile__icons {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.profile__icons i {
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--Secondary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doughnutchar {
+    width: 90%;
+    margin: 0 auto;
+}
+.doughnutchar p {
+    text-align: center;
+    margin-top: 1em;
+    font-weight: 600;
+}
+
+/* =-=-=-=-=-=- MEDIA QUERIES =-=-=-=-=-=-=-=- */
+/*320px — 480px: Mobile devices*/
+@media (min-width: 320px) and (max-width: 768px) {
+    .Profile {
+        display: none;
+    }
+}
